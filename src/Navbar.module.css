@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+.Navbar {
+  width: 100vw;
+  height: 10%;
+  padding: 32px 98px 32px 98px;
+  gap: 13rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+}
+
+.bar {
+  height: 32px;
+  width: 232.61px;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.title {
+  font-family: "Orbitron", Times, serif;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 422px;
+  justify-content: space-between;
+  position: relative;
+  top: 10%;
+  font-family: "Inter";
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  gap: 12px;
+}
+
+.link:hover {
+  color: blueviolet;
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.trademark {
+  font-family: "Inter";
+  color: #fff;
+  font-size: 16px;
+}
+
+@media (max-width: 330px) {
+  .Navbar {
+    width: 100vw;
+    gap: 0px;
+    padding: 0;
+  }
+  .logo {
+    width: 15%;
+    height: 60%;
+  }
+  .bar {
+    position: relative;
+    top: 13%;
+    display: flex;
+    width: 50%;
+  }
+  .title {
+    font-size: 0.6rem;
+  }
+  .menu {
+    gap: 20px;
+    justify-content: flex-start;
+    font-size: 0.4rem;
+    position: absolute;
+    top: 5vh;
+    left: 4.7vw;
+  }
+  .trademark {
+    position: relative;
+    font-size: 0.6rem;
+    left: 10%;
+    bottom: 1vh;
+  }
+}
+@media (min-width: 331px) and (max-width: 480px) {
+  .Navbar {
+    width: 100vw;
+    gap: 0rem;
+    padding: 0;
+  }
+  .logo {
+    width: 15%;
+    height: 60%;
+  }
+  .bar {
+    position: relative;
+    top: 13%;
+    display: flex;
+    width: 50%;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .menu {
+    gap: 20px;
+    justify-content: flex-start;
+    font-size: 0.4rem;
+    position: absolute;
+    top: 5vh;
+    left: 5%;
+  }
+  .trademark {
+    position: relative;
+    left: 15%;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .Navbar {
+    width: 100vw;
+    gap: 0rem;
+    padding: 0;
+  }
+  .logo {
+    width: 10%;
+    height: 60%;
+  }
+  .bar {
+    position: relative;
+    top: 13%;
+    left: 10%;
+    display: flex;
+    width: 50%;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .menu {
+    gap: 20px;
+    justify-content: flex-start;
+    font-size: 0.6rem;
+    position: absolute;
+    top: 4vh;
+    left: 10%;
+  }
+  .trademark {
+    position: relative;
+    left: 15%;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .Navbar {
+    width: 100vw;
+    gap: 0rem;
+    padding: 0;
+  }
+  .logo {
+    width: 10%;
+    height: 60%;
+  }
+  .bar {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    width: 50%;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .menu {
+    font-size: 0.7rem;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10%;
+    right: 10%;
+  }
+  .trademark {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .Navbar {
+    width: 100vw;
+    gap: 0rem;
+    padding: 0;
+  }
+  .logo {
+    width: 6%;
+    height: 60%;
+  }
+  .bar {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    width: 50%;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .menu {
+    font-size: 0.7rem;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10%;
+    right: 20%;
+  }
+  .trademark {
+    position: relative;
+    font-size: 0.6rem;
+    top: 15%;
+    right: 6%;
+  }
+}

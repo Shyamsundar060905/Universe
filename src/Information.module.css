@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+.container {
+  width: 320px;
+  height: 150px;
+  background-image: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #430e49 0.53%,
+    #370d44 32.06%,
+    #170b36 89.03%,
+    #100a33 100%
+  );
+  border-radius: 20px;
+  margin-right: 50px;
+  display: flex;
+  border: 4px solid;
+  border-image-source: radial-gradient(
+    110.92% 172.47% at 91.09% 101.78%,
+    #170b36 0%,
+    #100a33 11.98%,
+    #370d44 46.35%,
+    #430e49 89.06%
+  );
+  transition: 0.2s ease-out;
+}
+.container:hover {
+  box-shadow: 10px 10px 50px #170b36;
+  transform: translate3d(-10px, -20px, 0);
+}
+.image {
+  width: 50%;
+  padding-left: 10%;
+  padding-top: 12%;
+}
+
+.text {
+  text-wrap: nowrap;
+  position: relative;
+  left: -20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.text1 {
+  color: #fff;
+  font-size: 34px;
+  font-weight: 900;
+  font-family: "Orbitron";
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 70vw;
+    height: 20vh;
+  }
+  .text {
+    font-size: 4.5vw;
+  }
+  .text1 {
+    font-size: 7.5vw;
+  }
+  .image {
+    padding: 7%;
+  }
+  .imageinside {
+    height: 13vh;
+    padding-left: 10%;
+  }
+}
+@media (max-width: 480px) and (min-width: 376px) {
+  .container {
+    width: 70vw;
+    height: 23vh;
+  }
+  .text {
+    font-size: 4.5vw;
+  }
+  .text1 {
+    font-size: 7.5vw;
+  }
+  .image {
+    padding: 7%;
+  }
+  .imageinside {
+    height: 13vh;
+    padding-left: 10%;
+  }
+}
+@media (max-width: 768px) and (min-width: 481px) {
+  .container {
+    width: 36vw;
+    height: 20vh;
+  }
+  .text {
+    font-size: 2.5vw;
+  }
+  .text1 {
+    font-size: 2.5vw;
+  }
+}

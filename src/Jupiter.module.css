@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-image: url("Hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.content {
+  width: 50vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Orbitron";
+  font-size: 4rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.explanation {
+  position: relative;
+  left: 10%;
+}
+.description {
+  font-family: "Inter";
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.image {
+  position: relative;
+  left: 5%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: 125vh;
+    flex-direction: column-reverse;
+  }
+  .image {
+    left: 50%;
+    width: 60vw;
+  }
+
+  .content {
+    position: relative;
+    bottom: 3%;
+    left: 20%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .container {
+    height: 130vh;
+    flex-direction: column-reverse;
+  }
+  .image {
+    top: 8%;
+    left: 50%;
+    width: 60vw;
+  }
+  .content {
+    position: relative;
+    bottom: 3%;
+    left: 20%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .image {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 50vw;
+  }
+}

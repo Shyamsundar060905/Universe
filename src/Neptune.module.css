@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.container {
+  height: 160vh;
+  width: 100vw;
+  background-image: url("Hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.content {
+  position: relative;
+  top: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10vh;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+}
+.title {
+  font-size: 3.5rem;
+  font-family: "Orbitron";
+  font-weight: 900;
+  color: #fff;
+}
+
+.explanation {
+  font-size: 1rem;
+  font-family: "Inter";
+  font-weight: 500;
+  color: #fff;
+  width: 70vw;
+  text-wrap: pretty;
+}
+
+.information {
+  display: flex;
+}
+
+.image {
+  position: relative;
+  bottom: 23%;
+  right: 40%;
+  width: 140vw;
+  z-index: 1;
+  height: 140%;
+}
+
+.footer {
+  z-index: 2;
+  position: absolute;
+  bottom: 1%;
+  left: 5%;
+}
+
+@media (max-width: 480px) {
+  .container {
+    height: 200vh;
+  }
+  .information {
+    flex-direction: column;
+  }
+  .image {
+    height: 100vh;
+    bottom: 35%;
+  }
+  .footer {
+    position: relative;
+    top: 15%;
+    left: 0%;
+  }
+}
+
+@media (min-width: 480px) {
+  .footer {
+    left: 0%;
+  }
+}

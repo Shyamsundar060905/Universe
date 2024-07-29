@@ -1,0 +1,16 @@
+.background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  background-image: url("Hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

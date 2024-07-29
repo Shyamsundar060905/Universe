@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.position {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("Hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sun {
+  position: relative;
+  width: 100vw;
+  height: 60vh;
+}
+.content {
+  position: relative;
+  bottom: 200px;
+  left: 150px;
+  width: 826px;
+  height: 380px;
+  gap: 40px;
+}
+.content p {
+  font-family: "Orbitron";
+  font-size: 67px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 80px;
+}
+.content span {
+  font-size: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+.information {
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .position {
+    width: 100vw;
+    height: 140vh;
+  }
+  .sun {
+    width: 100vw;
+    height: 20vh;
+    left: 0px;
+  }
+  .content {
+    width: 100vw;
+    left: 0%;
+    top: -5%;
+  }
+  .content span {
+    font-size: 5.5vw;
+    text-wrap: pretty;
+    line-height: 50px;
+  }
+  .information {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 481px) {
+  .position {
+    height: 110vh;
+  }
+  .sun {
+    width: 100vw;
+    height: 20vh;
+    left: 0px;
+  }
+  .content {
+    width: 100vw;
+    top: -10%;
+    left: 0%;
+  }
+  .content span {
+    font-size: 4.5vw;
+    text-wrap: pretty;
+    line-height: 50px;
+  }
+  .information {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .position {
+    height: 100vh;
+  }
+  .sun {
+    width: 100vw;
+    height: 30vh;
+    left: 0px;
+  }
+  .content {
+    width: 100vw;
+    left: 0%;
+  }
+  .content span {
+    font-size: 2.5vw;
+    text-wrap: pretty;
+    line-height: 50px;
+  }
+}
+
+/* @media (min-width: 1025px) {
+  .position {
+    height: 110vh;
+  }
+  .sun {
+    width: 100vw;
+    height: 40vh;
+    left: 0px;
+  }
+  .content {
+    width: 60vw;
+    top: -12%;
+    left: 20%;
+  }
+  .content span {
+    font-size: 1.5vw;
+    text-wrap: pretty;
+    line-height: 50px;
+  }
+} */

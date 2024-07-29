@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.position {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url("Hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.earth {
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 30vh;
+  left: 50vw;
+  width: 10%;
+  height: 20%;
+  z-index: -1;
+}
+
+.planet1 {
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 12vh;
+  left: 87vw;
+  width: 14%;
+  height: 40%;
+  background-size: contain;
+}
+
+.planet2 {
+  position: absolute;
+  bottom: 0vh;
+  left: 85vw;
+  width: 16%;
+  height: 40%;
+}
+
+.moon {
+  position: absolute;
+  bottom: 0vh;
+  left: 40%;
+  width: 306px;
+  height: 150.49px;
+  background-size: contain;
+}
+
+.moon1 {
+  position: absolute;
+  width: 15%;
+  top: 9%;
+  left: 0%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.saturn {
+  position: absolute;
+  top: 37%;
+  left: 0px;
+  width: 20%;
+  height: 48%;
+}
+
+.planet3 {
+  position: absolute;
+  width: 12%;
+  height: 20%;
+  top: 85vh;
+  left: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  position: relative;
+  left: 26%;
+  height: 50vh;
+  bottom: 17vh;
+  width: 50%;
+}
+
+.title p {
+  font-family: "Orbitron";
+  font-size: 67px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 120px;
+  text-align: center;
+}
+
+.title span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-wrap: pretty;
+  font-family: "Inter";
+  color: #fff;
+  position: relative;
+  bottom: 10vh;
+}
+
+.learnmore {
+  position: relative;
+  top: -10%;
+  left: 35%;
+  font-family: "Orbitron";
+  font-size: 21px;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 4%;
+  background: linear-gradient(
+    315deg,
+    #cd1013 1.19%,
+    #ff0004 1.5%,
+    #2500ff 94.46%
+  );
+  width: 50%;
+  height: 20%;
+  padding: 2%;
+}
+
+.learnmore:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+@media (max-width: 320px) {
+  .earth {
+    width: 15%;
+    height: 10%;
+    left: 35%;
+  }
+  .moon1 {
+    width: 20vw;
+    height: 10vh;
+  }
+  .moon {
+    left: 30%;
+    height: 10%;
+    width: 30%;
+  }
+  .planet2 {
+    width: 20%;
+    height: 17vh;
+  }
+  .planet1 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 70%;
+  }
+  .planet3 {
+    width: 20%;
+    height: 15%;
+  }
+  .title {
+    top: 10%;
+  }
+  .title p {
+    font-size: 1rem;
+    line-height: normal;
+    position: relative;
+    bottom: 20%;
+  }
+  .title span {
+    font-size: 0.8rem;
+  }
+  .title button {
+    font-size: 0.4rem;
+  }
+  .saturn {
+    height: 20%;
+  }
+  .learnmore {
+    left: 0%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 600px) {
+  .earth {
+    width: 15%;
+    height: 10%;
+    left: 35%;
+  }
+  .moon1 {
+    width: 20vw;
+    height: 10vh;
+  }
+  .moon {
+    left: 40%;
+    height: 10%;
+    width: 30%;
+  }
+  .planet2 {
+    width: 24%;
+    height: 17vh;
+  }
+  .planet1 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 70%;
+  }
+  .title {
+    top: 20%;
+  }
+  .title p {
+    position: relative;
+    font-size: 1rem;
+    line-height: normal;
+    bottom: 20%;
+  }
+  .title span {
+    font-size: 0.8rem;
+  }
+  .title button {
+    font-size: 0.6rem;
+  }
+  .saturn {
+    height: 20%;
+  }
+  .learnmore {
+    left: 0%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .earth {
+    width: 15%;
+    height: 10%;
+    left: 35%;
+  }
+  .moon1 {
+    width: 15vw;
+    height: 10vh;
+  }
+  .moon {
+    left: 40%;
+    height: 10%;
+    width: 30%;
+  }
+  .planet2 {
+    width: 24%;
+    height: 17vh;
+  }
+  .planet1 {
+    position: absolute;
+    width: 27%;
+    height: 30%;
+    left: 74%;
+  }
+  .title {
+    top: 20%;
+  }
+  .title p {
+    position: relative;
+    font-size: 2rem;
+    line-height: normal;
+    bottom: 20%;
+  }
+  .title span {
+    font-size: 1rem;
+  }
+  .title button {
+    font-size: 0.8rem;
+  }
+  .saturn {
+    height: 20%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1250px) {
+  .earth {
+    width: 10%;
+    height: 10%;
+    left: 45%;
+  }
+  .moon1 {
+    width: 10vw;
+    height: 10vh;
+  }
+  .moon {
+    left: 40%;
+    height: 10%;
+    width: 20%;
+  }
+  .planet2 {
+    width: 24%;
+    height: 17vh;
+  }
+  .planet1 {
+    position: absolute;
+    width: 22%;
+    height: 30%;
+    left: 80%;
+  }
+  .title {
+    top: 10%;
+  }
+  .title p {
+    font-size: 2.5rem;
+    line-height: normal;
+  }
+  .title span {
+    font-size: 1rem;
+  }
+  .saturn {
+    height: 20%;
+  }
+}
+
+@media (max-width: 1496px) {
+  .moon {
+    left: 40%;
+    height: 10%;
+    width: 10%;
+  }
+  .learnmore {
+    position: relative;
+    top: -5vh;
+  }
+}
